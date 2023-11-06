@@ -10,7 +10,7 @@ public class GASTO_HIJO {
         ghijo2 = teclado.nextDouble();
         System.out.println("INGRESE LOS GASTOS DE LOS HUJOS 3");
         ghijo3= teclado.nextDouble();
-        gastosTotales = ghijo1*ghijo2+ghijo3;
+        gastosTotales = ghijo1+ghijo2+ghijo3;
         System.out.println("============================================================================");
         System.out.println("LOS GASTOS TOTALES SÓN: " + gastosTotales);        
     }
